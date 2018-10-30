@@ -1,0 +1,36 @@
+{
+  "name": "knapsak-q2-backend",
+  "version": "1.0.0",
+  "description": "Backend-for-Knapsak-Q2- A Visual Packing Lists for Kids",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntmbayfield/Knapsak-Q2-Backend.git"
+  },
+  "author": "Nyiema Bayfield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntmbayfield/Knapsak-Q2-Backend/issues"
+  },
+  "homepage": "https://github.com/ntmbayfield/Knapsak-Q2-Backend#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "debug": "^4.1.0",
+    "express": "^4.16.4",
+    "express-validation": "^1.0.2",
+    "http": "0.0.0",
+    "joi": "^14.0.2",
+    "knex": "^0.15.2",
+    "morgan": "^1.9.1",
+    "node": "^11.0.0",
+    "pg": "^7.6.0",
+    "pg-promise": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
